@@ -1,0 +1,23 @@
+.App {
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  .comments-list {
+    width: 50%;
+    .comment-wrapper {}
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    h2 {
+      align-self: flex-start;
+    }
+    .comments-list {
+      width: 100%;
+    }
+  }
+}
